@@ -1,6 +1,7 @@
 language: ruby
+install: bundle install --gemfile=yasslab/Gemfile
 script:
-- bundle exec rake assets:precompile
+- BUNDLE_GEMFILE=yasslab/Gemfile bundle exec rake -f yasslab/Rakefile assets:precompile
 - bundle exec rspec spec/features/
 deploy:
   provider: heroku
