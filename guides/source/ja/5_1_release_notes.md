@@ -335,7 +335,7 @@ Action View
     ([commit](https://github.com/rails/rails/commit/1de0df86695f8fa2eeae6b8b46f9b53decfa6ec8))
 
 *   `datetime_field`と`datetime_field_tag`で`datetime-local`フィールドを生成するよう変更
-    ([Pull Request](https://github.com/rails/rails/pull/28061))
+    ([Pull Request](https://github.com/rails/rails/pull/25469))
 
 *   HTMLタグ用の新しいビルダ風の構文を導入（`tag.div`、`tag.br`など）
     ([Pull Request](https://github.com/rails/rails/pull/25543))
